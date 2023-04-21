@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p id="timer"></p>
+    </header>
+    <section id="start-screen">
+        <h1>Title of Game</h1>
+        <button id="start-button">Start</button>
+    </section>
+    <section id="question-screen">
+        <h2>
+
+        </h2>
+        <div id="questions"></div>
+
+    </section>
+    <section id="display">
+
+    </section>
+    <section id="game-over" class = "hide">
+        <h1> ALL DONE </h1>
+        <p> Your score is: <span id="score"> </span></p>
+        <label>Enter Initials</label>
+        <input type="text" id="initials">
+        <button id="submit-button" type = "button">SUBMIT</button>
+        <br>
+        <ul id="high-scores"></ul>
+    </section>
+    <section id="final-control" class="hide">
+        <button id="go-back">Go Back</button>
+        <button id="clear-high-scores">Clear High Scores</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
